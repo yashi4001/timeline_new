@@ -131,9 +131,8 @@ body {
   background-image: url("./landingbg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: uncontain;
+  background-size: 100% 100%;
   font-family: Helvetica, sans-serif;
-  /*background-attachment: fill;*/
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -1793,102 +1792,80 @@ $('#btn4').click(function(){
 		</div>
   </br>   
     
-<div class="timeline" id="blah"  >
-  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample" data-target="#collapseExample" id="btn1" data-parent="#blah" class="dMN" >
-    <div class="container left dates" >
-        <img src="./23.png" id="img1" >
+  <div class="timeline" id="blah"  >
+  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample" data-target="#collapseExample" id="btn1" data-parent="#blah" >
+    <div class="container left dates">
+        <img src="./24.png" id="img1" !important >
   </div>
   </a>
   <div class="collapse show" id="collapseExample" data-parent="#blah">
-  <div class="container right bz0" >
+  <div class="container right bz0">
     <div class="content" >
-      <h2>8:00 AM</h2>
-      <p style="text-align: left\">Inaugral Ceremony of Horizon</p>
+      <h2>2:00 PM</h2>
+      <p style="text-align: left\">Inaugral Ceremony of Technica</p>
     </div>
   </div>
   <div class="container left bz1" style="text-align: right;">
     <div class="content">
-      <h2>2:00 PM</h2>
-      <p>Workshops Commence</p>
+      <h2>4:00 PM</h2>
+      <p>Technica begins</p>
     </div>
   </div>
   <div class="container right bz2">
-    <div class="content">
-      <h2>4:30 PM</h2>
-      <p>Short break</p>
-    </div>
-  </div>
-  <div class="container left bz3" style="text-align: right;">
-    <div class="content">
-      <h2>7:00 PM</h2>
-      <p>Workshops halt for the day</p>
-    </div>
-  </div>
-  </div>
-  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample2" id="btn2" data-parent="#blah" onclick="f2()" class="dMN">
-  <div class="container left dates2" id="dc2">
-	<img src="./24.png" id="img2">
-  </div>
-  </a>
-  <div class="collapse" id="collapseExample2" data-parent="#blah">
-  <div class="container right bz4">
-    <div class="content">
-      <h2>8:00 AM</h2>
-      <p>Workshops resume</p>
-    </div>
-  </div>
-  <div class="container left bz5" style="text-align: right;">
-    <div class="content">
-      <h2>10:30 AM</h2>
-      <p>Short break</p>
-    </div>
-  </div>
-  <div class="container right bz6">
-    <div class="content">
-      <h2>1:00 PM</h2>
-      <p>Halt for lunch</p>
-    </div>
-  </div>
-  <div class="container left bz7" style="text-align: right;">
-    <div class="content">
-      <h2>2:00 PM</h2>
-      <p>Inaugral Ceremony of Technica</p>
-    </div>
-  </div>
-  <div class="container right bz8">
-    <div class="content">
-      <h2>2:30 PM</h2>
-      <p>Workshops resume</p>
-    </div>
-  </div>
-<div class="container left bz9" style="text-align: right;">
-    <div class="content">
-      <h2>4:00 PM</h2>
-      <p>Technica Begins</p>
-    </div>
-  </div>
-  <div class="container right bz10">
-    <div class="content">
-      <h2>5:00 PM</h2>
-      <p>Break in workshops</p>
-    </div>
-  </div>
-<div class="container left bz11" style="text-align: right;">
-    <div class="content">
-      <h2>7:00 PM</h2>
-      <p>Workshops end</p>
-    </div>
-  </div>
-  <div class="container right bz12">
     <div class="content">
       <h2>8:00 PM</h2>
       <p>Review zero followed by dinner</p>
     </div>
   </div>
+  </div>
+  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample2" id="btn2" data-parent="#blah" onclick="f1()" >
+  <div class="container left dates2">
+	<img src="./25.png" id="img2">
+  </div>
+  </a>
+  <div class="collapse" id="collapseExample2" data-parent="#blah"  style="text-align: right;">
+  <div class="container left bz3" style="text-align: right;" >
+    <div class="content" >
+      <h2>1:00 AM</h2>
+      <p>Midnight snacks</p>
+    </div>
+  </div>
+  <div class="container right bz4" style="text-align: left;">
+    <div class="content">
+      <h2>4:00 AM</h2>
+      <p>Review 1</p>
+    </div>
+  </div>
+  <div class="container left bz5">
+    <div class="content">
+      <h2>6:00 AM</h2>
+      <p>Breakfast Break</p>
+    </div>
+  </div>
+  <div class="container right bz6" style="text-align: left;">
+    <div class="content">
+      <h2>1:00 PM</h2>
+      <p>Lunch Break</p>
+    </div>
+  </div>
+  <div class="container left bz7" >
+    <div class="content">
+      <h2>6:00 PM</h2>
+      <p>Review 2</p>
+    </div>
+  </div>
+<div class="container right bz8" style="text-align: left;">
+    <div class="content">
+      <h2>8:00 PM</h2>
+      <p>Dinner Break</p>
+    </div>
+  </div>
+
+  
 </div>
-<a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample3" id="btn3" data-parent="#blah" onclick="f3()"class="dMN">
-<div class="container left dates3" id="dc3">
-	<img src="./25.png" id="img3">
+<a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample3" id="btn3" data-parent="#blah" onclick="f2()">
+<div class="container left dates3">
+	<img src="./26.png" id="img3">
   </div>
   </a>
   <div class="collapse" id="collapseExample3" data-parent="#blah">
@@ -1901,66 +1878,22 @@ $('#btn4').click(function(){
   <div class="container right bz14">
     <div class="content">
       <h2>4:00 AM</h2>
-      <p>Review 1</p>
+      <p>Technica ends and Final Pitching starts</p>
     </div>
   </div>
   <div class="container left bz15" style="text-align: right;">
-    <div class="content">
-      <h2>6:00 AM</h2>
-      <p>Breakfast</p>
-    </div>
-  </div>
-  <div class="container right bz16">
-    <div class="content">
-      <h2>1:00 PM</h2>
-      <p>Lunch</p>
-    </div>
-  </div>
-  <div class="container left bz17" style="text-align: right;">
-    <div class="content">
-      <h2>6:00 PM</h2>
-      <p>Review 2</p>
-    </div>
-  </div>
-<div class="container right bz18">
-    <div class="content">
-      <h2>8:00 PM</h2>
-      <p>Dinner</p>
-    </div>
-  </div>
-  </div>
-<a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample4" id="btn4" data-parent="#blah" onclick="f4()" class="dMN">
-<div class="container left dates4" id="dc4">
-	<img src="./26.png" id="img4">
-  </div>
-  </a>
-  <div class="collapse" id="collapseExample4" data-parent="#blah">
-  <div class="container left bz19" style="text-align: right;" >
-    <div class="content">
-      <h2 id="ch">1:00 AM</h2>
-      <p>Midnight snacks</p>
-    </div>
-  </div>
-  <div class="container right bz20" style="text-align: left !important;">
-    <div class="content">
-      <h2>4:00 AM</h2>
-      <p>Technica ends and Final pitching starts</p>
-    </div>
-  </div>
-  <div class="container left bz21" style="text-align: right;">
     <div class="content">
       <h2>5:30 AM</h2>
       <p>Valediction Ceremony</p>
     </div>
   </div>
-  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample4" id="btn4" onclick="f2()">
-    <div class="container left dates4" id="dc4">
-        <img src="./SYT.png"  id="img5">
-      </div>
-      </a>
- </div>
-
-</div>
+  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample3" id="btn3" onclick="f1()" >
+<div class="container left dates3">
+	<img src="./SYT.png" id="img5">
+  </div>
+  </a>
+  
+    </div>
 <section id="footer">
 	<footer class=" text-white " style="text-align: center !important;height : auto;background:transparent; ">
 		<div class="container text-center container-fluid py-3" style="font-family:'Montserrat',sans-serif;">
@@ -2046,24 +1979,21 @@ $('#btn4').click(function(){
 					</div>
 				</footer>
 			</section>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
   </script>
   <script>
-		function f2() {
+		function f1() {
 		console.log(12);
 		var testDiv = document.getElementById("img2");
 		document.body.scrollTop = document.documentElement.scrollTop = testDiv.offsetTop;
 }
-	function f3() {
+	function f2() {
 		console.log(12);
 		var testDivx = document.getElementById("img3");
 		document.body.scrollTop = document.documentElement.scrollTop = 350;
-}
-	function f4() {
-		console.log(12);
-		var testDivy = document.getElementById("img4");
-		document.body.scrollTop = document.documentElement.scrollTop = 460;
 }
   </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
